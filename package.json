@@ -4,7 +4,8 @@
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
-    "watch": "bsb -make-world -w"
+    "watch": "bsb -make-world -w",
+    "example": "parcel example.html"
   },
   "keywords": [
     "BuckleScript"
@@ -13,10 +14,11 @@
   "license": "MIT",
   "devDependencies": {
     "@ristostevcev/bs-callbag-for-each": "^1.0.0",
-    "bs-platform": "^4.0.3"
+    "bs-platform": "^4.0.7",
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "@ristostevcev/bs-callbag": "^1.1.0",
-    "callbag-interval": "^1.1.0"
+    "callbag-interval": "1.0.0"
   }
 }
